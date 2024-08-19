@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { IVehicleCost } from '../interfaces/IVehicleCost';
+// const BASE_URL = import.meta.env.VITE_BASE_URL; // TODO: we should use env variable
 const BASE_URL = 'http://localhost:5030/api'
 
 const apiClient = axios.create({
