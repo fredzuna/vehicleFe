@@ -1,5 +1,11 @@
-# Vue 3 + TypeScript + Vite
+# Frontend project, Vue 3 + TypeScript + Vite
+I am using [Vue 3, Typescript, Vite], below you can find ways to run the project.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+* run project: npm run dev
+* open in the browser: http://localhost:5173
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Pending functionalities that need to be implemented
+
+* The pending functionalities that the project needs are sending and receiving tokens. Every time an endpoint is called, we should send the authToken so that it can be validated in BE.
+* Usar technologias como tailwindcss , materialUI para que se nos facilite la creacion de componenetes
+* Create unit tests for all functionality that is implemented.
